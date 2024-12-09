@@ -4,9 +4,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Widget Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      /* Use your image file's name. Since it's in the same directory, no folder path needed */
+      background: url("IMG_3581.jpeg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      /* A semi-transparent black background to help text pop out */
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
-  <!-- Put your widget code right here -->
+  <header>
+    <h1>My Awesome Widget Page</h1>
+  </header>
+
+  <!-- Your widget code goes below -->
   <elevenlabs-convai agent-id="BIydBehfL5JoUuupRAWz"></elevenlabs-convai>
   <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 </body>
